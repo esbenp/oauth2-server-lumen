@@ -14,5 +14,5 @@
         "psr-4": {
             "Optimus\\OAuth2Server\\": "src"
         }
-    },
+    }
 }
