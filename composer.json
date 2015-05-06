@@ -9,5 +9,10 @@
             "name": "Esben Petersen",
             "email": "ep@traede.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Optimus\\OAuth2Server\\": "src"
+        }
+    },
 }
