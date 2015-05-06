@@ -1,0 +1,13 @@
+{
+    "name": "esbenpetersen/oauth2-server-lumen",
+    "description": "A Lumen bridge for lucadegasperi/oauth2-server-laravel",
+    "require": {
+        "lucadegasperi/oauth2-server-laravel": "~4.0"
+    },
+    "authors": [
+        {
+            "name": "Esben Petersen",
+            "email": "ep@traede.com"
+        }
+    ]
+}
