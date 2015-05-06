@@ -39,3 +39,8 @@ the correct config folder as it is registered using ```$app->configure()```.
 ### Migrate
 
 Run ```php artisan migrate --path=vendor/lucadegasperi/oauth2-server-laravel/migrations```
+
+## Usage
+
+The package is now installed for Lumen. Usage is the same as with lucadegasperi/oauth2-server-laravel, so I suggest you read 
+the [https://github.com/lucadegasperi/oauth2-server-laravel/wiki](wiki) for usage.
