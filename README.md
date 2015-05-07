@@ -5,7 +5,7 @@ A Lumen bridge for lucadegasperi/oauth2-server-laravel.
 
 ### Via composer
 
-Run ```composer require optimus/oauth2-server-lumen ~0.1```
+Run ```composer require optimus/oauth2-server-lumen 0.1.*```
 
 ### Register package
 
