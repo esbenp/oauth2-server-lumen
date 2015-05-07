@@ -43,6 +43,8 @@ Copy ```vendor/lucadegasperi/oauth2-server-laravel/config/oauth2.php``` to your 
 
 Run ```php artisan migrate --path=vendor/lucadegasperi/oauth2-server-laravel/migrations```
 
+If you get an error saying the Config class can not be found, add ```class_alias('Illuminate\Support\Facades\Config', 'Config');``` to your ```bootstrap/app.php``` file and uncomment ```$app->withFacades();``` temporarily to import the migrations.
+
 ## Usage
 
 The package is now installed for Lumen. Usage is the same as with lucadegasperi/oauth2-server-laravel, so I suggest you read 
