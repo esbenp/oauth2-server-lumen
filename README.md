@@ -30,7 +30,7 @@ $app->middleware([
 $app->routeMiddleware([
     'check-authorization-params' => 'Optimus\OAuth2Server\Middleware\CheckAuthCodeRequestMiddleware',
     'csrf' => 'Laravel\Lumen\Http\Middleware\VerifyCsrfToken',
-    'oauth' => 'Optimus\OAuth2Server\Middleware\OauthMiddleware',
+    'oauth' => 'Optimus\OAuth2Server\Middleware\OAuthMiddleware',
     'oauth-owner' => 'Optimus\OAuth2Server\Middleware\OAuthOwnerMiddleware'
 ]);
 ```
