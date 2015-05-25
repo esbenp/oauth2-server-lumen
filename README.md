@@ -36,7 +36,7 @@ $app->middleware([
 $app->routeMiddleware([
     'check-authorization-params' => 'Optimus\OAuth2Server\Middleware\CheckAuthCodeRequestMiddleware',
     'csrf' => 'Laravel\Lumen\Http\Middleware\VerifyCsrfToken',
-    'oauth' => 'Optimus\OAuth2Server\Middleware\OauthMiddleware',
+    'oauth' => 'Optimus\OAuth2Server\Middleware\OAuthMiddleware',
     'oauth-owner' => 'Optimus\OAuth2Server\Middleware\OAuthOwnerMiddleware'
 ]);
 ```
@@ -48,6 +48,8 @@ Copy ```vendor/lucadegasperi/oauth2-server-laravel/config/oauth2.php``` to your 
 ### Migrate
 
 Run ```php artisan migrate --path=vendor/lucadegasperi/oauth2-server-laravel/migrations```
+
+If you get an error saying the Config class can not be found, add ```class_alias('Illuminate\Support\Facades\Config', 'Config');``` to your ```bootstrap/app.php``` file and uncomment ```$app->withFacades();``` temporarily to import the migrations.
 
 ## Usage
 
