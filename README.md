@@ -1,6 +1,12 @@
 # oauth2-server-lumen
 A Lumen bridge for lucadegasperi/oauth2-server-laravel.
 
+## Guide
+
+I have written an extensive blog post on it's use here.
+
+[Building a web app with Lumen web API and OAuth2 authentication](http://esbenp.github.io/2015/05/26/lumen-web-api-oauth-2-authentication/)
+
 ## Installation
 
 ### Via composer
